@@ -1,0 +1,15 @@
+{
+  "name": "@cursor/webpack-ipfs-pack",
+  "version": "0.1.0",
+  "main": "./index.cjs",
+  "type": "commonjs",
+  "files": [
+    "index.cjs"
+  ],
+  "peerDependencies": {
+    "webpack": ">=5.0.0"
+  },
+  "dependencies": {
+    "@cursor/ipfs-pack-core": "workspace:*"
+  }
+}

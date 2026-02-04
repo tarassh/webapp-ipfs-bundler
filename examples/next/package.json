@@ -1,0 +1,14 @@
+{
+  "name": "example-next",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "next build && node ../..//packages/next-ipfs-pack/scripts/pack-next.js"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@cursor/next-ipfs-pack": "workspace:*"
+  }
+}

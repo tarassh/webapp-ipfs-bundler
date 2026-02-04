@@ -1,0 +1,12 @@
+{
+  "name": "@cursor/next-ipfs-pack",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./scripts/pack-next.js",
+  "files": [
+    "scripts"
+  ],
+  "dependencies": {
+    "@cursor/ipfs-pack-core": "workspace:*"
+  }
+}

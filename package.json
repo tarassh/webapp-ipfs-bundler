@@ -1,0 +1,14 @@
+{
+  "name": "cursor-ipfs-pack",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.6.0",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r --filter ./packages... run build",
+    "dev": "echo 'Open an example and run its dev/build scripts'"
+  }
+}

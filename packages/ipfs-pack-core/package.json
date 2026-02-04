@@ -1,0 +1,31 @@
+{
+  "name": "@cursor/ipfs-pack-core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@ipld/car": "^5.3.2",
+    "@ipld/dag-pb": "^4.1.5",
+    "ipfs-unixfs-importer": "^16.0.1",
+    "multiformats": "^13.3.1",
+    "ipfs-http-client": "^60.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.4.5"
+  }
+}
